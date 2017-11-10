@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>a378eaa7-4f0f-40ff-80f8-4bd873d3390c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Data Structures and algoritms</Name>
+    <RootNamespace>Data Structures and algoritms</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.6</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Algoritms python book\Chapter 1\checkdates.py" />
+    <Compile Include="Algoritms python book\Chapter 1\checkdates2.py" />
+    <Compile Include="Algoritms python book\Chapter 1\click_counter.py" />
+    <Compile Include="Algoritms python book\Chapter 1\date.py" />
+    <Compile Include="Algoritms python book\Chapter 1\linearbag.py" />
+    <Compile Include="Algoritms python book\Chapter 1\studentfile.py" />
+    <Compile Include="Algoritms python book\Chapter 1\studentreport.py" />
+    <Compile Include="Algoritms python book\Chapter 1\TimeADT.py" />
+    <Compile Include="Algoritms python book\Chapter 2\Algoritms_python_book.py" />
+    <Compile Include="Algoritms python book\Chapter 2\GrayScaleImage.py" />
+    <Compile Include="Algoritms python book\Chapter 3\linearmap.py" />
+    <Compile Include="Algoritms python book\Chapter 3\linearset.py" />
+    <Compile Include="Algoritms python book\Chapter 5\Search.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algoritms python book\Chapter 5\Sorts.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algoritms python book\Chapter 6\SingleLinkedList.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algoritms python book\Chapter 7\maze.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algoritms python book\Chapter 7\SolveMaze.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algoritms python book\Chapter 7\lliststack.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algoritms python book\Chapter 7\Stack_with_list.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Code Fights\Hash tables\AreFollowPatterns.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Code Fights\Hash tables\AreFollowPatterns1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Code Fights\Hash tables\contains_close_nums.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cracking the code Interview\Data Structures\Binary Search.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cracking the code Interview\Data Structures\bubble_sort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cracking the code Interview\Data Structures\Linked_Lists_Detect_a_Cycle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cracking the code Interview\Data Structures\Queues_A_Tale_of_Two_Stacks.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cracking the code Interview\Data Structures\Ransom_Note_hash.py" />
+    <Compile Include="Cracking the code Interview\Data Structures\Stacks_Balanced_Brackets.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cracking the code Interview\Data Structures\Strings Making Anagrams.py" />
+    <Compile Include="Cracking the code Interview\Data Structures\test1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cracking the code Interview\Data Structures\Trees_Is_This_a_Binary_Search_Tree.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cracking the code Interview\Data Structures\Uniquecharswithlist.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Algoritms python book\" />
+    <Folder Include="Algoritms python book\Chapter 1\" />
+    <Folder Include="Algoritms python book\Chapter 2\" />
+    <Folder Include="Algoritms python book\Chapter 3\" />
+    <Folder Include="Algoritms python book\Chapter 5\" />
+    <Folder Include="Algoritms python book\Chapter 6\" />
+    <Folder Include="Algoritms python book\Chapter 7\" />
+    <Folder Include="Code Fights\Hash tables\" />
+    <Folder Include="Cracking the code Interview\" />
+    <Folder Include="Cracking the code Interview\Data Structures\" />
+    <Folder Include="Code Fights\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.6" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
