@@ -72,6 +72,9 @@
     <Compile Include="Cracking the code Interview\Data Structures\bubble_sort.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Cracking the code Interview\Data Structures\Heaps_Find_the_Running_Median.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Cracking the code Interview\Data Structures\Linked_Lists_Detect_a_Cycle.py">
       <SubType>Code</SubType>
     </Compile>
@@ -90,6 +93,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Cracking the code Interview\Data Structures\Uniquecharswithlist.py" />
+    <Compile Include="Cracking the code Interview\Recursion\recursive_sum.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Algoritms python book\" />
@@ -103,6 +109,7 @@
     <Folder Include="Cracking the code Interview\" />
     <Folder Include="Cracking the code Interview\Data Structures\" />
     <Folder Include="Code Fights\" />
+    <Folder Include="Cracking the code Interview\Recursion\" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.6" />
