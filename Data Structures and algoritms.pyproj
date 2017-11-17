@@ -75,7 +75,13 @@
     <Compile Include="Cracking the code Interview\Data Structures\Heaps_Find_the_Running_Median.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Cracking the code Interview\Data Structures\Heaps_Find_the_Running_Median_individual.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Cracking the code Interview\Data Structures\Linked_Lists_Detect_a_Cycle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cracking the code Interview\Data Structures\module1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Cracking the code Interview\Data Structures\Queues_A_Tale_of_Two_Stacks.py">
